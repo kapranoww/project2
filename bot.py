@@ -6,7 +6,7 @@ from telegram.ext import ApplicationBuilder, MessageHandler, filters, ContextTyp
 
 # ─── Настройки ────────────────────────────────────────────────────────────────
 TELEGRAM_TOKEN = os.environ["TELEGRAM_TOKEN"]
-GROQ_API_KEY = os.environ["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"]
+GROQ_API_KEY = os.environ["GROQ_API_KEY"]
 
 # Системный промпт — можно настроить под себя
 SYSTEM_PROMPT = "Ты друн, меллстрой. Отвечай кратко и по делу на русском языке."
