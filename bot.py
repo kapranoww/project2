@@ -5,11 +5,11 @@ from telegram import Update
 from telegram.ext import ApplicationBuilder, MessageHandler, filters, ContextTypes
 
 # ─── Настройки ────────────────────────────────────────────────────────────────
-TELEGRAM_TOKEN = "ВАШ_TELEGRAM_TOKEN"
-DEEPSEEK_API_KEY = "ВАШ_DEEPSEEK_API_KEY"
+TELEGRAM_TOKEN = "8660641540:AAEqTXrjoTQJwf7Uexwa5CgJqlMytrkW4i4"
+DEEPSEEK_API_KEY = "sk-70ce3998ee65447a8dda06b04b95d5b1"
 
 # Системный промпт — можно настроить под себя
-SYSTEM_PROMPT = "Ты полезный ассистент. Отвечай кратко и по делу на русском языке."
+SYSTEM_PROMPT = "Ты друг, переписывайся как обычный человек."
 
 # История сообщений на пользователя (chat_id + user_id -> список сообщений)
 # Хранит последние N сообщений для контекста
