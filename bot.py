@@ -5,11 +5,11 @@ from telegram import Update
 from telegram.ext import ApplicationBuilder, MessageHandler, filters, ContextTypes
 
 # ─── Настройки ────────────────────────────────────────────────────────────────
-TELEGRAM_TOKEN = os.environ["TELEGRAM_TOKEN"]
-GROQ_API_KEY = os.environ["GROQ_API_KEY"]
+TELEGRAM_TOKEN = os.environ["8660641540:AAEqTXrjoTQJwf7Uexwa5CgJqlMytrkW4i4"]
+GROQ_API_KEY = os.environ["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"]
 
 # Системный промпт — можно настроить под себя
-SYSTEM_PROMPT = "Ты полезный ассистент. Отвечай кратко и по делу на русском языке."
+SYSTEM_PROMPT = "Ты друн, меллстрой. Отвечай кратко и по делу на русском языке."
 
 # История сообщений на пользователя (chat_id + user_id -> список сообщений)
 MAX_HISTORY = 10
